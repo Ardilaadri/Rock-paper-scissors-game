@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, papel o tijera</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Piedra, papel o tijera</h1>
+    </header>
+    <main>
+      <section class="game">
+        <table>
+          <tr>
+            <th>Score Player</th>
+            <td id="player">number</td>
+          </tr>
+          <tr>
+            <th>Score Computer</th>
+            <td id="computer">number</td>
+          </tr>
+        </table>
+        <div class="game__container">
+          <button id="rock" onclick="player.handleClickRock()">Rock</button>
+          <button id="paper" onclick="player.handleClickPaper()">Paper</button>
+          <button id="scissors" onclick="player.handleClickScissors()">
+            Scissors
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
